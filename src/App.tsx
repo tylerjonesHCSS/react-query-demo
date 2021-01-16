@@ -26,7 +26,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <button onClick={loadData}>Click me to load data!</button>
+      <button onClick={loadData}>Click me to load data!!</button>
       {<div>{data}</div>}
     </div>
   );
