@@ -30,6 +30,11 @@ export const FastPokemon = () => {
           width={"250px"}
           height={"250px"}
         />
+        <img
+          src={pokemon.sprites.back_default}
+          width={"250px"}
+          height={"250px"}
+        />
       </h1>
 
       <div>Type: {pokemon.types.map((type) => type.type.name + " ")}</div>
